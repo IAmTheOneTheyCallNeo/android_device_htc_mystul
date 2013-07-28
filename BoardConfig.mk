@@ -16,7 +16,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_SMP := true
 
 # Kernel
-BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 user_debug=31
+BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=mystul user_debug=31
 BOARD_KERNEL_BASE := 0x80400000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01400000
@@ -32,4 +32,3 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/mystul/kernel
-TARGET_RECOVERY_INITRC := device/htc/mystul/recovery/init.rc

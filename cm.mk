@@ -8,11 +8,11 @@ PRODUCT_RELEASE_NAME := mystul
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/htc/mystul/device_mystul.mk)
+$(call inherit-product, device/htc/mystul/mystul.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mystul
 PRODUCT_NAME := cm_mystul
 PRODUCT_BRAND := htc
-PRODUCT_MODEL := mystul
-PRODUCT_MANUFACTURER := htc
+PRODUCT_MODEL := HTC first
+PRODUCT_MANUFACTURER := HTC

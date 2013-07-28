@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_mystul.mk
+    $(LOCAL_DIR)/mystul.mk
